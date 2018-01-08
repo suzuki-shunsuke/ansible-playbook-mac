@@ -1,0 +1,25 @@
+---
+- hosts: localhost
+  vars_files:
+    - group_vars/all.yml
+    - group_vars/homebrew.yml
+    - group_vars/tmux.yml
+    - group_vars/git.yml
+    - group_vars/zsh.yml
+    - group_vars/neovim.yml
+    # - group_vars/vim.yml
+  roles:
+    - homebrew-packages
+    - suzuki-shunsuke.neovim-mac
+    - suzuki-shunsuke.neovim-conf
+    - suzuki-shunsuke.zsh-conf
+    - suzuki-shunsuke.tmux-conf
+    - suzuki-shunsuke.tmux-tpm
+    - suzuki-shunsuke.gitconfig
+    - suzuki-shunsuke.gvm
+    - suzuki-shunsuke.pyenv
+    - suzuki-shunsuke.pyenv-virtualenv
+    - suzuki-shunsuke.rbenv
+    - zsh
+    - suzuki-shunsuke.vim-conf
+    - suzuki-shunsuke.neobundle-vim

@@ -1,0 +1,7 @@
+playbook_nonroot: "{{(ansible_env.HOME == '/root') | ternary('no', 'yes')}}"
+# pyenv
+pyenv_is_dependencies_installed: yes
+# rbenv
+rbenv_is_dependencies_installed: yes
+# gvm
+gvm_is_dependencies_installed: yes

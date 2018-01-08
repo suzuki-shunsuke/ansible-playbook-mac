@@ -1,0 +1,4 @@
+---
+dependencies:
+  - role: suzuki-shunsuke.zsh-conf
+    remote_repository_path: suzuki-shunsuke/zsh.conf

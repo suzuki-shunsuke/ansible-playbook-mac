@@ -1,0 +1,11 @@
+os: osx
+
+install:
+  - brew install ansible
+  - ansible-galaxy install -r roles.yml
+
+script:
+  - ansible-playbook -i localhost playbook.yml
+
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/

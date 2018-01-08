@@ -1,0 +1,5 @@
+- name: Change the default shell to zsh
+  user:
+    name: "{{ansible_env.USER}}"
+    shell: "/usr/local/bin/zsh"
+  become: "{{playbook_nonroot}}"
