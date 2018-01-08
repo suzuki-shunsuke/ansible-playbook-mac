@@ -1,0 +1,3 @@
+# group_vars/zsh.yml
+zsh_conf_repo: "https://github.com/suzuki-shunsuke/zsh.conf"
+zsh_conf_cloned_dest: "{{ansible_env.HOME}}/repos/src/github.com/suzuki-shunsuke/zsh.conf"

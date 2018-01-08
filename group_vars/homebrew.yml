@@ -1,0 +1,36 @@
+homebrew_packages:
+  - curl
+  - wget
+  - tmux
+  - zsh
+  - zplug
+  - fzf
+  - hub
+  - ghq
+  # - vim
+  - go
+  - direnv
+  - git
+  - git-lfs
+  - tree
+  - the_silver_searcher
+  - ripgrep
+  - packer
+  - terraform
+  - pwgen
+  - jsonlint
+  - nodebrew
+  - jq
+  # tmux vim paste Nothing to register
+  - reattach-to-user-namespace
+  # - zip
+  # GNU Command
+  - xz
+  - binutils
+  - coreutils
+  - findutils
+homebrew_cask_packages:
+  - virtualbox
+  - vagrant
+homebrew_tap_repositories:
+  - caskroom/cask

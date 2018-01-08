@@ -1,0 +1,4 @@
+# group_vars/git.yml
+gitconfig_repo: "https://github.com/suzuki-shunsuke/git.conf"
+gitconfig_cloned_dest: "{{ansible_env.HOME}}/repos/src/github.com/suzuki-shunsuke/git.conf"
+gitconfig_version: mac
