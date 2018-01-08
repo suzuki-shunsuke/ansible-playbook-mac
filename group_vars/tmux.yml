@@ -1,4 +1,5 @@
+---
 tmux_conf_repo: "https://github.com/suzuki-shunsuke/tmux.conf"
 tmux_conf_cloned_dest: "{{ansible_env.HOME}}/repos/src/github.com/suzuki-shunsuke/tmux.conf"
 tmux_conf_links:
-  .tmux.conf: "{{ansible_env.HOME}}/.tmux.conf"
+  "{{ansible_os_family == 'Darwin'|ternary('mac_', 'linux_')}}tmux.conf": "{{ansible_env.HOME}}/repos/src/github.com/suzuki-shunsuke/tmux.conf/.tmux.conf"

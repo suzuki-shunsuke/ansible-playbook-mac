@@ -1,0 +1,6 @@
+---
+- name: Make symbolic link
+  file:
+    src: "{{tmux_conf_cloned_dest}}/.tmux.conf"
+    dest: "{{ansible_env.HOME}}/.tmux.conf"
+    state: link
