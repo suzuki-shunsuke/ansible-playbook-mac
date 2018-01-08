@@ -7,7 +7,7 @@
     - group_vars/git.yml
     - group_vars/zsh.yml
     - group_vars/neovim.yml
-    # - group_vars/vim.yml
+    - group_vars/vim.yml
   roles:
     - homebrew-packages
     - suzuki-shunsuke.neovim-mac
@@ -22,4 +22,4 @@
     - suzuki-shunsuke.rbenv
     - zsh
     - suzuki-shunsuke.vim-conf
-    - suzuki-shunsuke.neobundle-vim
+    # - suzuki-shunsuke.neobundle-vim
