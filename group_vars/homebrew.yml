@@ -29,6 +29,7 @@ homebrew_packages:
   - binutils
   - coreutils
   - findutils
+  - gnu-sed
 homebrew_cask_packages:
   - virtualbox
   - vagrant
